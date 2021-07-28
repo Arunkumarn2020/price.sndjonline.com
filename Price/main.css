@@ -1,0 +1,166 @@
+a, a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+nav ul {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 1.3rem;
+  width: 200px;
+}
+
+nav ul li a {
+  display: block;
+}
+
+.underline {
+  width: 1296px;
+  height: 1px;
+  margin-top: 3px;
+}
+
+.backcolor {
+  background-color: rgba(255, 154, 39, 0.897);
+}
+
+.paracolor {
+  color: honeydew;
+}
+
+.footh{
+  text-align: justify;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  
+}
+.footer {
+  background-color: rgb(241, 239, 239);
+  height: 100px;
+  width: 1295px;
+  border-radius: 0%;
+  
+  border: 0px;
+}
+
+.fa-twitter:hover {
+  color: red;
+}
+
+#frontend .underline {
+  width: 250px;
+  height: 5px;
+}
+
+#frontend .fa-sass {
+  color: pink;
+}
+
+#frontend .fa-bootstrap {
+  color: purple;
+}
+
+#blog .underline {
+  width: 120px;
+  height: 3px;
+  background-color: blue;
+  margin: 0px auto;
+}
+
+#blog .border {
+  outline: 5px solid pink;
+}
+
+#review .underline {
+  width: 370px;
+  height: 5px;
+}
+
+#review .fa-quote-left {
+  margin-right: 1rem;
+}
+
+#filler {
+  background: url(./image/apple.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  background-attachment: fixed;
+}
+
+#filler .underline {
+  width: 300px;
+  height: 5px;
+}
+
+#filler .margin {
+  margin-top: 6rem;
+}
+
+#about .height {
+  min-height: 100vh;
+}
+
+#about .about-image {
+  background: url(./image/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#about .about-text {
+  padding-top: 10rem;
+}
+
+#about .about-text .about-text-center .underline {
+  width: 90px;
+  height: 5px;
+  background-color: red;
+  margin: 0px auto;
+}
+
+#about .about-text .about-text-center .fa-check {
+  margin-right: 0.4rem;
+}
+
+#progress .underline {
+  width: 120px;
+  height: 5px;
+}
+
+#pricing .underline {
+  width: 100px;
+  height: 5px;
+  background-color: teal;
+}
+
+#projects .underline {
+  width: 110px;
+  height: 5px;
+  background-color: wheat;
+}
+/*# sourceMappingURL=main.css.map */

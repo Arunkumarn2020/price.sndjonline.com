@@ -1,0 +1,46 @@
+$fontFamily:'Open Sans', sans-serif;
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $fontFamily;
+    overflow-x: hidden;
+}
+
+
+
+// .underline{
+//     width: 220px;
+//     height: 5px;
+
+//     // margin-left: auto;
+//     // margin-right: auto;
+//     // margin: 0 auto;
+// }
+
+.backcolor{
+    background-color: rgba(41, 104, 185, 0.74);
+}
+
+.footh{
+    background: lightgray;
+}
+@media only screen and (min-width: 600px) {
+    .hrruler{
+        width: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
